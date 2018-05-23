@@ -1,0 +1,46 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+// color
+$base:
+$main: #ffffff;
+$accent:
+$dark:
+
+// neat
+$custom-grid--thirds: (
+    columns: 3,
+    gutter: 60px,
+);
+
+
+body {
+    background: $main;
+
+    .nav-contents {
+        border-style: solid;
+        list-style: none;
+        @include border-color(#a60b55 #76cd9c null #e8ae1a);
+    }
+
+    .post-container {
+        // display: flex;
+        // // align-items: center;
+        // justify-content: space-between;
+        // max-width: 1000px;
+        // margin: auto;
+        // padding: 0 10px;
+        @include grid-container;
+
+        .post {
+            max-width: 70%;
+            margin-right: auto;
+            margin-left: auto;
+
+            .post-img img{
+                max-width: 100%;
+                max-height: auto;
+            }
+        }
+        }
+}

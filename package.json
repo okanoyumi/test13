@@ -1,0 +1,28 @@
+{
+  "name": "test13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okanoyumi/test13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okanoyumi/test13/issues"
+  },
+  "homepage": "https://github.com/okanoyumi/test13#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "jquery": "^3.3.1",
+    "swiper": "^4.2.6",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

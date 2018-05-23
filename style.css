@@ -1,0 +1,21 @@
+body {
+  background: #d3d3d3; }
+  body .nav-contents {
+    border-style: solid;
+    list-style: none;
+    border-top-color: #a60b55;
+    border-right-color: #76cd9c;
+    border-left-color: #e8ae1a; }
+  body .post-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px; }
+    body .post-container .post {
+      max-width: 70%;
+      margin-right: auto;
+      margin-left: auto; }
+      body .post-container .post .post-img img {
+        max-width: 100%;
+        max-height: auto; }
