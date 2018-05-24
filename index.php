@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-<!-- <div class="post-container"> -->
+<div class="post-wrapper">
 <?php
 if ( have_posts() ) :
 	while ( have_posts() ) :
@@ -16,7 +16,7 @@ if ( have_posts() ) :
 		get_template_part( 'template-parts/components/content' );
 	endwhile;
 	?>
-	<!-- </div> -->
+	</div>
 	<?php
 	the_posts_pagination( array(
 		'prev_text' => '&larr;',

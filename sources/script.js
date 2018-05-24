@@ -1,5 +1,6 @@
-// const $ = require('jquery');
-//
+const $ = require('jquery');
+require('slick-carousel');
+
 // $(function() {
 //   $('.h-nav').click(function() {
 //     $(this).toggleClass('active');
@@ -11,4 +12,26 @@
 //   });
 // });
 
-import Swiper from 'swiper';
+// import Swiper from 'swiper';
+
+// export default class Carousel {
+//     constructor(.slick-box) {
+//         this.$el = $(.slick-box);
+//         this.init();
+//     }
+//
+//     init() {
+//         this.$el.slick({
+//             dots: true,
+//             autoplay: true
+//         });
+//     }
+// }
+
+$(function() {
+	$('.slick-box').slick({
+    infinite: true,
+		slidesToShow: 2,
+		slidesToScroll: 3
+  });
+});

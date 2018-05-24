@@ -20,6 +20,11 @@
 	<header>
 		<h1><a href="<?php bloginfo( 'url' ); ?>"<?php bloginfo( 'name' ); ?></a></h1>
 		<p><?php bloginfo( 'description' ); ?></p>
+		<ul class="slick-box">
+		<li><img src="<?php echo get_template_directory_uri(); ?>/img/img_slide_01.jpg"></li>
+		<li><img src="<?php echo get_template_directory_uri(); ?>/img/img_slide_02.jpg"></li>
+		<li><img src="<?php echo get_template_directory_uri(); ?>/img/img_slide_03.jpg"></li>
+	</ul>
 	</header>
 	<?php
 	get_template_part( 'template-parts/components/nav' );

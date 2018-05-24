@@ -9,6 +9,7 @@
 ?>
 <div class="post-container">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
 	<?php
 	if ( is_single() ) {
 		the_title( '<h1 class="entry-title">', '</h1>' );
@@ -20,10 +21,9 @@
 		<li><?php echo get_the_date(); ?></li>
 		<li><?php the_category(); ?></li>
 		<li><?php the_tags(); ?></li>
-	</ul>
 	<div class="post-img"><?php the_post_thumbnail(); ?></div>
 	<?php
 	the_content( '読む' )
 	?>
-</div>
+</ul>
 </article></div>
