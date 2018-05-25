@@ -31,7 +31,8 @@ require('slick-carousel');
 $(function() {
 	$('.slick-box').slick({
     infinite: true,
-		slidesToShow: 2,
-		slidesToScroll: 3
+		autoplay: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
   });
 });
